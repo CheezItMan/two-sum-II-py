@@ -1,8 +1,6 @@
 # Two Sum II
 
-This problem was taken from [Leetcode: Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/).
-
-Given a _*1-indexed*_ array of integers numbers that is already **sorted in non-decreasing order**, find two numbers such that they add up to a specific target number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `0 <= index1 < index2 < numbers.length`.
+Given an array of integers numbers that is already **sorted in non-decreasing order**, find two numbers such that they add up to a specific target number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `0 <= index1 < index2 < numbers.length`.
 
 Return the indices of the two numbers, `index1` and `index2` *as an integer array* `[index1, index2]` of *length 2*.
 
@@ -29,3 +27,4 @@ Your solution must use only **constant extra space**.  i.e. O(1) Space Complexit
 **Output:** `[0, 1]`
 **Explanation:** The sum of -1 and 0 is -1. Therefore `index1 = 0`, `index2 = 1`. We return `[0, 1]`.
 
+*This problem was taken from [Leetcode: Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/).*
