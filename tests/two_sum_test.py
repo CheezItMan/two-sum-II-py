@@ -23,7 +23,15 @@ def test_example_three():
     assert two_sum(nums, target) == [0, 1]
 
 
-@pytest.mark.skip(reason="Students will write this!")
 def test_edge_case():
-    # You write an edge-case test here
-    pass
+    nums = []
+    target = -1
+
+    assert two_sum(nums, target) == None
+
+
+def test_other_edge_case():
+    nums = [1, 2, 3, 4, 5]
+    target = 27
+
+    assert two_sum(nums, target) == None
