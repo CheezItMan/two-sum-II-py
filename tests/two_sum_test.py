@@ -1,5 +1,5 @@
 import pytest
-from lib.two_sum import two_sum
+from two_sum.two_sum import two_sum
 
 
 def test_example_one():
